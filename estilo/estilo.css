@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+.comentarios img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 16px;
+    gap: 90px;
+    text-align: center;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #2b2b2b;
+}
+
+.cabecalho h1{
+    color: red;
+}
+.lista:hover{
+    color: red;
+}
+.introducao{
+    padding: 65px;
+    text-align: justify;
+
+}
+.postagem1-2, .postagem3-4, .postagem5-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    gap: 30px;
+}
+main{
+    padding: 20px;
+    background-color: #3c3f41;
+}
+main img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+main h2{
+    text-align: center;
+}
+
+.sobreautor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.textosobreautor{
+    width: 616px;
+    text-align: justify;
+}
+.comentarios h3{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.pessoascoment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #2b2b2b;
+    padding: 20px;
+
+}
+a{
+    color: greenyellow;
+}
+
+.tmnh{
+    width: 50%;
+}
